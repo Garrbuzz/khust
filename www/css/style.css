@@ -1,14 +1,17 @@
 @import url(../img/fonts/roboto/roboto.css);
 .grid-col-10-12 {
   display: grid;
-  grid-template-columns: 10% repeat(12, 1fr) 10%; }
+  grid-template-columns: 5% repeat(12, 1fr) 5%;
+  grid-gap: 25px; }
 
 .grid-col-16 {
   display: grid;
   grid-template-columns: repeat(16, 1fr); }
 
-.grid-rows-3 {
-  grid-template-rows: 1.6fr 1fr 1.6fr; }
+.grid-rows-2 {
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-row-gap: 0; }
 
 @media screen and (max-width: 992px) {
   .nav {
@@ -46,14 +49,14 @@ header {
     display: inline-block; }
     .nav-desktop-container ul li a {
       padding: 0.25em 1em;
-      text-decoration: none;
       color: white;
+      font-size: 1.2em;
       -webkit-transition: color 0.3s linear;
       transition: color 0.3s linear; }
     .nav-desktop-container ul li a:hover {
-      color: #ba9ef9; }
+      color: #2e52d3; }
   .nav-desktop-container nav {
-    grid-column: 4/13;
+    grid-column: 3/13;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -61,8 +64,7 @@ header {
     -ms-flex-align: center;
     align-items: center;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
-    margin-left: 3em; }
+    justify-content: space-around; }
     .nav-desktop-container nav a {
       font-family: roboto; }
   .nav-desktop-container .emblem-hust {
@@ -130,457 +132,32 @@ header {
       text-align: center;
       padding: 1em 0; }
 
-.name {
-  grid-column: 3/11;
-  grid-rows: 2/3;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-bottom: 2em;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-  .name h1 {
-    border-top: 1px #ddd solid;
-    border-bottom: 1px #ddd solid;
-    padding: 0.2em 0;
-    font-family: railwayBold;
-    text-transform: uppercase;
-    color: white;
-    font-size: 5em;
-    letter-spacing: 0.085em; }
-  .name p {
-    color: white;
-    margin: 1em 0;
-    font-family: roboto;
-    font-size: 1.6em;
-    font-weight: 100; }
+.news {
+  height: 245px; }
 
-.man {
-  grid-column: 1/6;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  padding-top: 7.5em; }
+.news-image {
+  grid-column: 2/5;
+  grid-row: 1/3;
+  margin: 5vh 5vh 0 0; }
 
-.home-content {
-  grid-column: 6/13;
-  font-family: roboto; }
-  .home-content h2 {
-    margin: 7em 0.5em 1em 0.5em; }
-  .home-content p {
-    margin: 1em 0.5em 1em 0;
-    line-height: 1.5em; }
-  .home-content button {
-    background: #ff2b49;
-    font-family: roboto;
-    font-size: 1.1em;
-    padding: 0.75em 4em;
-    color: white;
-    margin: 3em 0;
-    border: none; }
-
-.working-process {
-  background: #f6f6f6; }
-
-.cont-wrap {
-  grid-column: 4/14; }
-  .cont-wrap h2 {
-    margin: 2.5em 0 0 0;
-    font-family: railwayBold;
-    font-size: 2.5em;
-    text-align: center; }
-  .cont-wrap p {
-    font-family: roboto;
-    text-align: center;
-    margin: 3em 0 3.75em 0; }
-
-.rec-1-wrap {
-  grid-column: 3/6;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-bottom: 6em; }
-
-.rec-1 {
-  width: 220px;
-  background: #10c6fc;
-  height: 220px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .rec-1 img {
-    margin-bottom: 1em; }
-
-.rec-2-wrap {
-  grid-column: 6/9;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
-.rec-2 {
-  background: #835aeb;
-  width: 220px;
-  height: 220px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .rec-2 img {
-    margin-bottom: 1em; }
-
-.rec-3-wrap {
-  grid-column: 9/12;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
-.rec-3 {
-  background: #002453;
-  width: 220px;
-  height: 220px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .rec-3 img {
-    margin-bottom: 1em; }
-
-.rec-4-wrap {
-  grid-column: 12/15;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
-.rec-4 {
-  background: #002453;
-  width: 220px;
-  height: 220px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .rec-4 img {
-    margin-bottom: 1em; }
-
-.p-wp {
-  font-family: roboto;
-  text-transform: uppercase;
-  margin-top: 1em;
-  color: white; }
-
-.work-experiens {
-  background: url("../img/back1.jpg");
-  background-size: cover;
-  height: auto; }
-
-.w-e, .edu {
-  background: url("../img/back-edu.png") no-repeat; }
-  .w-e h3, .edu h3 {
-    font-family: railwayBold;
-    font-size: 1.4em;
-    letter-spacing: 0.07em;
-    color: white;
-    margin: 10% 5%;
-    text-transform: uppercase; }
-  .w-e .edu-subtitle, .edu .edu-subtitle {
-    font-family: roboto;
-    color: white;
-    margin: 5%;
-    font-size: 1.2em; }
-  .w-e .time, .edu .time {
-    font-family: roboto;
-    color: white;
-    margin: 0.5em 5%;
-    font-size: 1em; }
-  .w-e p, .edu p {
-    font-family: roboto;
-    color: white;
-    margin: 0 5% 5% 5%;
-    font-size: 0.9em;
-    letter-spacing: 0.04em; }
-
-.w-e {
-  grid-column: 3/9;
-  margin: 5em 0.5em 5em 0; }
-
-.edu {
-  grid-column: 9/15;
-  margin: 5em 0 5em 0.5em; }
-
-.p1 {
-  padding-bottom: 2.5em;
-  border-bottom: 1px #bbb solid; }
-
-.latest-works .lw-title {
-  grid-column: 3/14; }
-  .latest-works .lw-title h2 {
-    margin: 2.5em 0 0 0;
-    font-family: railwayBold;
-    font-size: 2.5em;
-    text-align: center; }
-  .latest-works .lw-title p {
-    text-align: center;
-    font-family: roboto;
-    margin: 2em 0 0; }
-
-.latest-works .rec-lw-1 {
-  grid-column: 3/6;
-  height: 12em;
-  background: #10c6fc;
-  margin: 2em 0.5em 0.5em; }
-
-.latest-works .rec-lw-2 {
-  grid-column: 6/9;
-  height: 12em;
-  background: #835aeb;
-  margin: 2em 0.5em 0.5em; }
-
-.latest-works .rec-lw-3 {
-  grid-column: 9/12;
-  height: 12em;
-  background: #002453;
-  margin: 2em 0.5em 0.5em; }
-
-.latest-works .rec-lw-4 {
-  grid-column: 12/15;
-  height: 12em;
-  background: #ff2b4a;
-  margin: 2em 0.5em .5em; }
-
-.latest-works .rec-lw-5-6 {
-  grid-column: 3/9;
-  height: 12em;
-  background: #835aeb;
-  margin: .5em 0.5em 5em; }
-
-.latest-works .rec-lw-7 {
-  grid-column: 9/12;
-  height: 12em;
-  background: #002453;
-  margin: .5em 0.5em 5em; }
-
-.latest-works .rec-lw-8 {
-  grid-column: 12/15;
-  height: 12em;
-  background: #ff2b4a;
-  margin: .5em 0.5em 5em; }
-
-.blue {
-  background: #64cbc0; }
-  .blue .blue-cont {
-    grid-column: 3/9;
-    margin: 2em 0; }
-    .blue .blue-cont p {
-      padding: 0 2em 0 0.5em;
-      font-family: roboto;
-      color: 1d4440;
-      line-height: 1.5em; }
-  .blue .blue-img {
-    margin: 8em 0 0 0.5em;
-    grid-column: 3/6; }
-  .blue .signature {
-    margin: 0.5em 0;
-    grid-column: 3/6; }
-  .blue .croft {
-    margin: 0.5em 0 0 0.5em;
-    grid-column: 3/6;
-    font-family: roboto; }
-    .blue .croft h3 {
-      margin: 1em 0 0 0; }
-    .blue .croft p {
-      margin: 0.5em 0 7.5em 0; }
-
-.contacts {
-  background: url("../img/back1.jpg");
-  background-size: cover;
-  grid-gap: 1em; }
-
-.wrap {
-  grid-column: 3/15;
-  margin: 7.5em 0;
-  grid-gap: 1em;
-  display: grid;
-  grid-temlate-column: 538px 538px;
-  grid-temlate-rows: 1fr 1fr 1fr; }
-
-.feedback {
-  grid-column: 3/9;
-  grid-row: 1/4;
-  background: url("../img/back-contacts.png");
-  padding-left: 2.5em;
-  margin: 7.5em 0; }
-  .feedback h2 {
-    font-family: railway;
-    color: white;
-    margin: 3em 0 2.5em 0;
-    text-transform: uppercase; }
-  .feedback input {
-    margin: .75em 0;
-    background: none;
-    border: 1px #fff solid;
-    width: 90%;
-    padding: 0.75em 0  0.75em 0;
-    color: white; }
-  .feedback button {
-    background: #ff2b49;
-    font-family: roboto;
-    font-size: 1.1em;
-    padding: 0.75em 0;
-    width: 40%;
-    color: white;
-    margin: 3em 0;
-    border: none;
-    margin-left: 52%; }
-
-.addr {
-  padding-left: 2.5em;
-  padding-top: 3em;
-  grid-column: 9/15;
+.news-pre {
+  overflow: hidden;
+  grid-column: 5/12;
   grid-row: 1/2;
-  background: url("../img/back-addr.png");
-  margin: 7.5em 0 0 0; }
-  .addr h2 {
-    font-family: railway;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.075em; }
-  .addr p {
-    font-family: railway;
-    color: #eee;
-    margin-top: 1.5em;
-    padding-right: 1.5em;
-    font-size: 0.8em;
+  margin: 5vh 5vh 0 0; }
+  .news-pre p, .news-pre h2 {
+    font-family: roboto; }
+  .news-pre p {
+    margin-top: 1em;
     line-height: 1.5em;
-    letter-spacing: 0.075em; }
+    letter-spacing: 0.1em; }
 
-.phone {
-  padding-left: 2.5em;
-  padding-top: 3em;
-  grid-column: 9/15;
+.news-next {
+  grid-column: 5/12;
   grid-row: 2/3;
-  background: url("../img/back-addr.png"); }
-  .phone h2 {
-    font-family: railway;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.075em;
-    margin-bottom: 1.5em; }
-  .phone p {
-    font-family: railway;
-    color: #eee;
-    padding-right: 1.5em;
-    font-size: 0.8em;
-    line-height: 1.5em;
-    letter-spacing: 0.075em; }
-
-.web {
-  padding-left: 2.5em;
-  padding-top: 3em;
-  grid-column: 9/15;
-  grid-row: 3/4;
-  background: url("../img/back-addr.png");
-  margin: 0 0 7.5em 0; }
-  .web h2 {
-    font-family: railway;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.075em;
-    margin-bottom: 1.5em; }
-  .web p {
-    font-family: railway;
-    color: #eee;
-    padding-right: 1.5em;
-    font-size: 0.8em;
-    line-height: 1.5em;
-    letter-spacing: 0.075em; }
-
-@media screen and (max-width: 1082px) {
-  .nav {
-    display: none; }
-  .burg-menu {
-    display: block; }
-  .name h1 {
-    font-size: 3em; }
-  .name p {
-    font-size: 1em; }
-  .man {
-    display: none; }
-  .home-content {
-    grid-column: 1/13;
-    padding-left: 2vw; }
-    .home-content button {
-      font-family: roboto;
-      font-size: 8vh;
-      padding: 0;
-      width: 50vw;
-      height: 15vh;
-      margin: 10vh 22vw; } }
-
-@font-face {
-  font-family: railwayBold;
-  src: url(../img/fonts/railway/Raleway-Bold.otf);
-  font-family: railway;
-  src: url(../img/fonts/railway/raleway-regular.otf); }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
