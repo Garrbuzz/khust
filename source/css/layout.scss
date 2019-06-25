@@ -8,9 +8,9 @@
 	grid-template-columns: repeat(16, 1fr);
 	
 }
-.grid-rows-2{
+.grid-rows-5{
 	display: grid;
-	grid-template-rows:   80% 20%;
+	grid-template-rows:   repeat(5, auto);
 	grid-row-gap: 0;
 }
 
