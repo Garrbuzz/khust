@@ -1,5 +1,5 @@
 @import "layout.scss";
-
+@import "news.scss";
 @import "../img/fonts/roboto/roboto.css";
 @import "media.scss";
 *{
@@ -9,7 +9,7 @@
 .hide{
 	display:none;
 }
-header{
+.header-index{
 	background: url('../img/back-header.jpg');
 	background-size: cover;
 	height: 512px;
@@ -63,9 +63,6 @@ header{
 		align-items:center;
 	}		
 }
-
-
-
 .slogan{
 	width: 100%;
 	height: 125px;
@@ -79,6 +76,25 @@ header{
 		color:#fff;
 	}
 	margin-top: 130px;
+}
+.breadcrumbs{
+	font-family: roboto;
+	grid-column: 4/12;
+	ul{
+		margin: 1em auto;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		list-style-type: none;
+		li{
+			margin: 0 1em;
+			a{
+				text-decoration: none;
+				color:#333;
+				font-size: 0.8em;
+			}
+		}
+	}
 }
 // burger-menu
 .burg-wrap-start{

@@ -13,6 +13,82 @@
   grid-template-rows: repeat(5, auto);
   grid-row-gap: 0; }
 
+.last-news {
+  margin: 2vh 0 1vh 0; }
+
+.ls1-cover {
+  background: url("../img/news-remont.jpg"); }
+
+.big-last-news {
+  grid-column: 4/8; }
+  .big-last-news a {
+    text-decoration: none; }
+  .big-last-news .ls-1 {
+    background: rgba(10, 20, 50, 0.6);
+    height: calc(36vh + 0.5em);
+    margin: 0.5em 0;
+    text-align: center; }
+    .big-last-news .ls-1 div {
+      padding-top: 3em; }
+      .big-last-news .ls-1 div h1 {
+        color: #fff;
+        font-family: roboto;
+        font-weight: 100;
+        font-size: 2em; }
+
+.small-last-news {
+  grid-column: 8/12; }
+  .small-last-news .ls-2 {
+    margin: 0.5em 0;
+    height: 18vh;
+    background: rgba(10, 20, 90, 0.8);
+    color: #fff;
+    text-align: center; }
+    .small-last-news .ls-2 div {
+      padding-top: 2em; }
+      .small-last-news .ls-2 div h2 {
+        color: #fff;
+        font-family: roboto;
+        font-weight: 100; }
+
+.news-container {
+  grid-column: 4/12; }
+  .news-container img {
+    margin: 1em 0; }
+
+.news-text p, .news-text h2 {
+  font-family: roboto; }
+
+.news-text p {
+  margin-top: 1em;
+  line-height: 1.5em;
+  letter-spacing: 0.1em; }
+
+.news-pagination {
+  grid-column: 4/12;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: roboto; }
+  .news-pagination div {
+    background: #f6f6f6;
+    padding: 0.5em 2em;
+    margin: 2em 0.25em;
+    border-radius: 2px; }
+  .news-pagination ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none; }
+    .news-pagination ul li {
+      background: #f6f6f6;
+      padding: 0.5em 1em;
+      margin: 2em 0.25em;
+      border-radius: 2px; }
+
 @media screen and (max-width: 992px) {
   .nav {
     display: none; }
@@ -26,7 +102,7 @@
 .hide {
   display: none; }
 
-header {
+.header-index {
   background: url("../img/back-header.jpg");
   background-size: cover;
   height: 512px; }
@@ -93,6 +169,28 @@ header {
   .slogan h1 {
     font-family: roboto;
     color: #fff; }
+
+.breadcrumbs {
+  font-family: roboto;
+  grid-column: 4/12; }
+  .breadcrumbs ul {
+    margin: 1em auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style-type: none; }
+    .breadcrumbs ul li {
+      margin: 0 1em; }
+      .breadcrumbs ul li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 0.8em; }
 
 .burg-wrap-start {
   position: absolute;

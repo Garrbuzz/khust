@@ -1,0 +1,97 @@
+.last-news{
+	margin: 2vh 0 1vh 0;
+}
+.ls1-cover{
+	background: url('../img/news-remont.jpg');
+}
+.big-last-news{
+	grid-column: 4/8;
+	a{
+		text-decoration: none;	
+	}
+	.ls-1{
+		
+		background: rgba(10, 20, 50, 0.6);
+		
+		height: calc(36vh + 0.5em);
+		margin:0.5em 0;
+
+		
+		text-align: center;
+			
+		div{
+			padding-top: 3em;
+			h1{
+				color:#fff;
+				font-family: roboto;
+				font-weight: 100;
+				font-size: 2em;
+			}
+			
+		}
+	
+	}
+	
+}
+.small-last-news{
+	grid-column: 8/12;
+	
+	.ls-2{
+		margin:0.5em 0;
+		height: 18vh;
+		background: rgba(10, 20, 90, 0.8);
+		color:#fff;
+		text-align: center;
+		div{
+			padding-top: 2em;
+			h2{				
+				color:#fff;
+				font-family: roboto;
+				font-weight: 100;
+			}
+			
+		}
+	}
+
+
+}
+.news-container{
+	grid-column: 4/12;
+	img{
+		margin: 1em 0;
+	}
+}
+.news-text{
+	p, h2 {
+		font-family: roboto;
+	}
+	p{
+		margin-top: 1em;
+		line-height: 1.5em;
+		letter-spacing: 0.1em;
+	}
+}
+.news-pagination{
+	grid-column:4/12;
+	display:flex;
+	justify-content:center;
+	font-family: roboto;
+	div{
+		background:#f6f6f6;
+		padding: 0.5em 2em;
+		margin:2em 0.25em;
+		border-radius: 2px;
+	}
+	ul{
+		display: flex;
+		list-style-type: none;
+
+		li{
+			background:#f6f6f6;
+			padding: 0.5em 1em;
+			margin:2em 0.25em;
+			border-radius: 2px;
+		}
+		
+	}
+}
