@@ -206,10 +206,48 @@ section {
 .hide {
   display: none; }
 
+.top {
+  background: rgba(50, 50, 50, 0.6);
+  height: 64px; }
+
+.emblems-top {
+  grid-column: 5/11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .emblems-top img {
+    margin: 0 0.5em; }
+
+.khust-img-small, .emblem-khust-old {
+  grid-column: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
 .header-index {
   background: url("../img/back-header.jpg");
-  background-size: cover;
-  height: 512px; }
+  background-size: 100% 100%; }
+
+.radio {
+  grid-column: 13/14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .burg-menu {
   grid-column: 11/12;
@@ -247,14 +285,6 @@ section {
     justify-content: space-around; }
     .nav-desktop-container nav a {
       font-family: roboto; }
-  .nav-desktop-container .radio {
-    grid-column: 13/14;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center; }
 
 .slogan {
   width: 100%;

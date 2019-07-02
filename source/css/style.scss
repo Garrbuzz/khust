@@ -13,12 +13,40 @@
 .hide{
 	display:none;
 }
+.top{
+	background:rgba(50,50,50,0.6);
+	height: 64px;
+}
+.emblems-top{
+
+	grid-column:5/11;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	img{
+		margin:0 0.5em;
+	}
+
+
+
+}
+.khust-img-small, .emblem-khust-old{
+	grid-column:2/3;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
 .header-index{
 	background: url('../img/back-header.jpg');
-	background-size: cover;
-	height: 512px;
-}
+	background-size: 100% 100%;
 
+
+}
+.radio{
+	grid-column: 13/14;
+	display: flex;
+	align-items:center;
+}
 .burg-menu{
 	grid-column: 11/12;
 	grid-rows: 1/2;
@@ -48,6 +76,7 @@
 			}
 		}	
 	}
+
 	nav{
 		grid-column: 3/13;
 		display: flex;
@@ -61,11 +90,7 @@
 
 	
 		
-	.radio{
-		grid-column: 13/14;
-		display: flex;
-		align-items:center;
-	}		
+		
 }
 .slogan{
 	width: 100%;
