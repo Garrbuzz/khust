@@ -10,7 +10,7 @@
 
 .grid-rows-5 {
   display: grid;
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(5, 1fr);
   grid-row-gap: 0; }
 
 .last-news {
@@ -89,6 +89,110 @@
       margin: 2em 0.25em;
       border-radius: 2px; }
 
+.current-news-title {
+  grid-column: 4/12;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.current-news-text {
+  grid-column: 4/12; }
+  .current-news-text p {
+    margin: 1em; }
+
+.current-news-title {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+section {
+  font-family: roboto; }
+
+.poster-title {
+  grid-column: 4/12;
+  margin-top: 2em; }
+
+.poster-image {
+  grid-column: 4/6; }
+
+.poster-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-column: 6/12; }
+  .poster-date table td {
+    padding: 0 2em 0.25em 0;
+    font-size: 0.9em; }
+
+.poster-text {
+  grid-column: 4/12; }
+  .poster-text p {
+    line-height: 1.5em;
+    letter-spacing: 0.1em; }
+
+.people-image, .people-title {
+  grid-column: 4/12;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.people-title {
+  margin-top: 3em; }
+
+.miskrada {
+  background: url("../img/main.jpg");
+  background-size: cover;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .miskrada div a {
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 5vh;
+    color: #fff;
+    margin: 1vh; }
+
+.fm {
+  margin: 0; }
+
+.street-working {
+  background: url("../img/main.jpg");
+  background-size: cover;
+  height: 85vh; }
+
+.message {
+  grid-column: 1/15;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 2.5em; }
+  .message h1 {
+    font-family: roboto;
+    font-weight: 100;
+    color: #fff; }
+
 @media screen and (max-width: 992px) {
   .nav {
     display: none; }
@@ -116,8 +220,8 @@
 
 .nav-desktop-container {
   font-family: railwayBold;
-  background: rgba(0, 0, 0, 0.7);
-  height: 12vh;
+  background: rgba(0, 0, 0, 0.6);
+  height: 8vh;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
@@ -186,9 +290,8 @@
     align-items: center;
     list-style-type: none; }
     .breadcrumbs ul li {
-      margin: 0 1em; }
+      margin: 0 0.5em; }
       .breadcrumbs ul li a {
-        text-decoration: none;
         color: #333;
         font-size: 0.8em; }
 
@@ -291,10 +394,13 @@
       font-family: roboto; }
 
 .pagination {
-  grid-column: 2/10;
+  grid-column: 4/12;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-family: roboto; }
   .pagination div {
     background: #f6f6f6;
@@ -315,7 +421,8 @@
 footer {
   font-family: roboto;
   background: #f6f6f6;
-  padding: 2em 0; }
+  padding: 2em 0;
+  margin-top: 6vh; }
 
 .emblem-hust, .emblem-oblrada {
   grid-column: 2/3;

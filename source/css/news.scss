@@ -95,3 +95,17 @@
 		
 	}
 }
+.current-news-title, {
+	grid-column: 4/12;
+	display: flex;
+}
+.current-news-text{
+	grid-column: 4/12;
+	p{
+		margin: 	1em;
+	}
+		
+}
+.current-news-title{
+	justify-content: center;
+}

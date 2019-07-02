@@ -1,0 +1,32 @@
+section{
+	font-family: roboto;
+}
+.poster-title{
+	grid-column: 4/12;
+	margin-top: 2em;
+}
+.poster-image{
+	grid-column: 4/6;	
+}
+.poster-date{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-column: 6/12;
+	table{
+		td{
+			padding: 0 2em 0.25em 0;
+			font-size: 0.9em;
+
+		}
+	}	
+}
+.poster-text{
+	grid-column: 4/12;
+	p{
+		
+		line-height: 1.5em;
+		letter-spacing: 0.1em;
+	}
+
+}

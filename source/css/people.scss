@@ -1,0 +1,8 @@
+.people-image, .people-title{
+	grid-column: 4/12;
+	display: flex;
+	justify-content: center;
+}
+.people-title{
+	margin-top:3em;
+}

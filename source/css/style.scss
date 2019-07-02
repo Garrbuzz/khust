@@ -1,5 +1,9 @@
 @import "layout.scss";
 @import "news.scss";
+@import "poster.scss";
+@import "people.scss";
+@import "miskrada.scss";
+@import "streets.scss";
 @import "../img/fonts/roboto/roboto.css";
 @import "media.scss";
 *{
@@ -25,8 +29,8 @@
 }
 .nav-desktop-container{
 	font-family: railwayBold;
-	background: rgba(0, 0, 0, 0.7);
-	height: 12vh;
+	background: rgba(0, 0, 0, 0.6);
+	height: 8vh;
 	justify-content:center;
 	ul{
 		li{
@@ -87,9 +91,9 @@
 		align-items:center;
 		list-style-type: none;
 		li{
-			margin: 0 1em;
+			margin: 0 0.5em;
 			a{
-				text-decoration: none;
+				// text-decoration: none;
 				color:#333;
 				font-size: 0.8em;
 			}
@@ -205,8 +209,9 @@
 
 }
 .pagination{
-	grid-column:2/10;
+	grid-column:4/12;
 	display:flex;
+	justify-content:center;
 	font-family: roboto;
 	div{
 		background:#f6f6f6;
@@ -231,6 +236,7 @@ footer{
 	font-family: roboto;
 	background:#f6f6f6;
 	padding:2em 0;
+	margin-top:6vh;
 
 }
 .emblem-hust, .emblem-oblrada{

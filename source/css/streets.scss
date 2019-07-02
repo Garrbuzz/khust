@@ -1,0 +1,19 @@
+.street-working{
+	background: url('../img/main.jpg');
+	background-size: cover;
+	height: 85vh;
+}
+.message{
+	grid-column: 1/15;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2.5em;
+
+
+	h1{
+		font-family: roboto;
+		font-weight: 100;
+		color:#fff;
+	}
+}
