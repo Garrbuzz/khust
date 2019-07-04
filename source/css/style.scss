@@ -16,17 +16,21 @@
 header{
 	background: url('../img/back-header.jpg');
 	background-size: 100% 100%;
+
 }
+
 .weather-informer{
 	grid-column:9/13;
 	grid-row:1/2;
 	display: flex;
 	align-items:center;
 	justify-content:center;
+
 }
 .wi-inner{
 	border: #fc8302 1px dashed;
 	padding: 0.5em 1.5em;
+	background:rgba(20,20,30,0.2);
 }
 .emblem-khust{
 	grid-column:2/3;
@@ -67,7 +71,8 @@ nav{
 		display: flex;
 		align-items:center;
 		justify-content:space-around;
-		background: rgba(0, 0, 0, 0.6);
+		background: rgba(0, 0, 0, 0.5);
+		// font-weight: 100;
 
 	justify-content:center;
 	ul{
@@ -93,9 +98,10 @@ nav{
 		}
 
 		li:hover{
-			background:#999;
+			background:rgba(20,20,30,0.8);
 			a{
-				color:#ddf;
+				color:#aaf;
+
 			}
 		}	
 	}
@@ -181,6 +187,17 @@ nav{
 	}
 }
 // end burger-menu
+.event-container{
+	grid-column:4/12;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly; 
+}
+.event{
+	width: 300px;
+}
+
+
 .news-image{
 	grid-column: 2/5;
 	margin: 5vh 0 0 0;
