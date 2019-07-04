@@ -39,7 +39,7 @@ header{
 	display: flex;
 	align-items:center;
 	justify-content:center;
-	margin:0.5em 0;
+	margin:1em 0;
 	p{
 		margin:0.2em 0;
 		text-align: center;
@@ -54,7 +54,6 @@ header{
 	flex-direction:column;
 	align-items:center;
 	justify-content:center;
-	margin:0.5em 0;
 }
 #play-stop{
 	margin: 0.4em 0;
@@ -71,7 +70,7 @@ nav{
 		display: flex;
 		align-items:center;
 		justify-content:space-around;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.4);
 		// font-weight: 100;
 
 	justify-content:center;
@@ -82,11 +81,12 @@ nav{
 			border-left: #555 1px solid;
 			padding:0.75em 0;
 			margin:0 -2px;
-			transition: color 0.2s linear, background 0.2s linear;
+			transition: background 0.3s linear;
 			a{
 				padding: 0.25em 1em;
 				color: white;	
 				font-size: 1.2em;
+				transition: color 0.3s linear;
 			}
 			a:hover{
 				
@@ -101,17 +101,13 @@ nav{
 			background:rgba(20,20,30,0.8);
 			a{
 				color:#aaf;
-
 			}
 		}	
 	}
 	a{
 		font-family: roboto;
 	}
-
 }
-	
-
 .breadcrumbs{
 	font-family: roboto;
 	grid-column: 4/12;
@@ -177,7 +173,6 @@ nav{
 				color:#fff;
 				text-decoration: none;
 			}
-
 		}
 		#burger-back{
 			color:#ddd;
@@ -187,15 +182,46 @@ nav{
 	}
 }
 // end burger-menu
+.index-title{
+	grid-column:4/12;
+	margin: 2em 0;
+	text-align: center;
+	h1{
+		font-weight: 100;
+		font-size: 2.5em;
+		color: #000;
+	}
+}
 .event-container{
 	grid-column:4/12;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-evenly; 
+	font-family: roboto;	
 }
 .event{
 	width: 300px;
+	.date{
+		margin: 0.75em 0;
+	}
+	h3{
+		margin: 0.75em 0;
+
+	}
 }
+
+.left-container{
+	grid-column:1/4;
+	grid-row: 1/6; 
+
+	margin-top: 10em;
+	.left{
+		margin: 0  0 0 2em;
+	}
+}
+
+
+
 
 
 .news-image{
