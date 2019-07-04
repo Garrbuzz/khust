@@ -183,9 +183,10 @@ nav{
 }
 // end burger-menu
 .index-title{
-	grid-column:4/12;
+	grid-column:1/15;
 	margin: 2em 0;
 	text-align: center;
+	background: blue;	
 	h1{
 		font-weight: 100;
 		font-size: 2.5em;
@@ -212,9 +213,7 @@ nav{
 
 .left-container{
 	grid-column:1/4;
-	grid-row: 1/6; 
-
-	margin-top: 10em;
+	background: grey;
 	.left{
 		margin: 0  0 0 2em;
 	}
