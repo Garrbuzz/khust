@@ -385,8 +385,7 @@ nav {
 .index-title {
   grid-column: 1/15;
   margin: 2em 0;
-  text-align: center;
-  background: blue; }
+  text-align: center; }
   .index-title h1 {
     font-weight: 100;
     font-size: 2.5em;
@@ -413,9 +412,14 @@ nav {
 
 .left-container {
   grid-column: 1/4;
-  background: grey; }
+  padding-left: 1em; }
   .left-container .left {
     margin: 0  0 0 2em; }
+    .left-container .left p {
+      margin: 2.5em 0;
+      font-size: 0.8em;
+      line-height: 1.5em;
+      letter-spacing: 0.075em; }
 
 .news-image {
   grid-column: 2/5;

@@ -186,7 +186,7 @@ nav{
 	grid-column:1/15;
 	margin: 2em 0;
 	text-align: center;
-	background: blue;	
+
 	h1{
 		font-weight: 100;
 		font-size: 2.5em;
@@ -213,9 +213,16 @@ nav{
 
 .left-container{
 	grid-column:1/4;
-	background: grey;
+	padding-left:1em;
+
 	.left{
 		margin: 0  0 0 2em;
+		p{
+			margin: 2.5em 0;
+			font-size: 0.8em;
+			line-height: 1.5em;	
+			letter-spacing: 0.075em;
+		}
 	}
 }
 
