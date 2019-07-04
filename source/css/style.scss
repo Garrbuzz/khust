@@ -16,6 +16,7 @@
 header{
 	background: url('../img/back-header.jpg');
 	background-size: 100% 100%;
+	position:fixed;
 
 }
 
@@ -219,7 +220,7 @@ nav{
 		margin: 0  0 0 2em;
 		p{
 			margin: 2.5em 0;
-			font-size: 0.6em;
+			font-size: 0.6	em;
 			line-height: 1.5em;	
 			letter-spacing: 0.075em;
 		}
