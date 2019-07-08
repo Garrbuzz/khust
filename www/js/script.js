@@ -2,7 +2,7 @@ window.onload = function(){
 // radio
 	let startBtn = document.querySelector('#play-stop');
 	var playStatus = 'stop';
-	var audio = new Audio('http://de1.internet-radio.com:8277/stream?type=http&amp;nocache=12');
+	var audio = new Audio('http://de1.internet-radio.com:8277/stream?type=http&nocache=12');
 	startBtn.onclick = function(){
 		if (playStatus ==='stop') {
 			console.log(playStatus);
