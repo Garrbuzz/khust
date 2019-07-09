@@ -1,7 +1,10 @@
 .grid-col-10-12{
 	display: grid;
 	grid-template-columns: 5% repeat(12, 1fr) 5%;
-	grid-gap: 25px;	
+	
+}
+.gap-25{
+		grid-gap: 25px;
 }
 .grid-col-16{
 	display: grid;
