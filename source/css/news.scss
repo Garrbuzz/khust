@@ -85,30 +85,39 @@
 }
 .news-container{
 	margin-top: 2em;
-	grid-column: 5/11;
+	grid-column: 6/11;
 	img{
 		margin: 1em 0;
 	}
 }
 .news-text{
+	position:relative;
 	a{
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}
 	a:visited{
-		color: #333;
+		color: #000;
 	}
 	a:hover{
-		color:#f4940b;
+		text-decoration: underline;
+		color:#228;
+	}
+	h2{
+		font-weight: 100;
 	}
 	p, h2 {
 		font-family: roboto;
 	}
 	p{
-		margin-top: 1em;
 		line-height: 1.5em;
 		letter-spacing: 0.1em;
 	}
+}
+.news-date{
+	position:absolute;
+	left:-8em;
+	font-weight: 500;
 }
 .news-pagination{
 	grid-column:4/12;
