@@ -1,8 +1,27 @@
-.people-image, .people-title{
+.people-image{
 	grid-column: 4/12;
 	display: flex;
 	justify-content: center;
+	transition: transform 0.2s linear;	
 }
 .people-title{
+	grid-column: 5/11;
+	display: flex;
+	justify-content: center;
 	margin-top:3em;
+	h2{
+		font-weight: 400;
+		color: #000;
+		margin:1em;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+		text-decoration:underline;
+	};
+	
+}
+.people-image:hover{
+	transform: scale(1.005, 1.005);
 }

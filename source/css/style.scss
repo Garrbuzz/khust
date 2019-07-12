@@ -102,8 +102,16 @@ nav{
 		font-family: roboto;
 	}
 }
+
+.header-help{
+	grid-column: 13/14;	
+	grid-row: 2/3;
+	position: relative;
+
+}
+
 .header-fb{
-	grid-column: 14/15;
+	grid-column: 14/15;	
 	grid-row: 2/3;
 	position: relative;
 	div{
@@ -195,18 +203,16 @@ nav{
 }
 // end burger-menu
 .button-help{
-	grid-column:14/15;
-	position:fixed;
-	top:1.5vh;
-	left: 46.15vw;
-	// right: 1vw;
-	width: 6vw;
-	height: 6vw;
+	position:absolute;
+	top:1.2em;
+	right:1.75em;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
-	z-index:10;
-	background: rgba(220, 0, 0, 0.25);
+
+	background: rgba(220, 0, 0, 0.5);
 	transition: background 0.25s linear;
-	border: #fff 1px solid;
+	// border: #fff 1px solid;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -215,7 +221,8 @@ nav{
 		color: #fff;
 		letter-spacing: 0.025em;
 		font-weight: 100;	
-		font-size: 0.9em; 
+		font-size: 1.2em;
+		font-weight: 900; 
 	}	
 	
 }

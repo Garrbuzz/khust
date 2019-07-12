@@ -18,11 +18,26 @@ section{
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	div{
-		padding-top: 1em;
-		border-radius: 0.5em; 
+	transition:  border-color 0.2s linear, background 0.2s linear;
+	background:#eee;
+	a{
+			text-decoration: none;
 	}
-
+	p{
+		margin:1em 0;
+		color: #333;
+	}
+	div{
+		padding-top: 0.6em;
+		img{
+			border-radius: 0.5em; 			
+		}
+		
+	}
+}
+.poster-container:hover{
+	border-color: red;
+	background: #fff;
 }
 
 

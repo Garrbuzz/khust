@@ -133,16 +133,23 @@
       margin: 2em 0.25em;
       border-radius: 2px; }
 
-.current-news-title {
+.current-news-text {
   grid-column: 4/12;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
-
-.current-news-text {
-  grid-column: 4/12; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .current-news-text h1 {
+    margin: 0 3.5em; }
   .current-news-text p {
-    margin: 1em; }
+    margin: 1em 2em;
+    line-height: 1.5em; }
 
 .current-news-title {
   -webkit-box-pack: center;
@@ -181,10 +188,23 @@ section {
   justify-content: flex-start;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  -webkit-transition: border-color 0.2s linear, background 0.2s linear;
+  transition: border-color 0.2s linear, background 0.2s linear;
+  background: #eee; }
+  .poster-container a {
+    text-decoration: none; }
+  .poster-container p {
+    margin: 1em 0;
+    color: #333; }
   .poster-container div {
-    padding-top: 1em;
-    border-radius: 0.5em; }
+    padding-top: 0.6em; }
+    .poster-container div img {
+      border-radius: 0.5em; }
+
+.poster-container:hover {
+  border-color: red;
+  background: #fff; }
 
 .poster-title {
   grid-column: 5/11;
@@ -214,17 +234,40 @@ section {
     line-height: 1.5em;
     letter-spacing: 0.1em; }
 
-.people-image, .people-title {
+.people-image {
   grid-column: 4/12;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear; }
 
 .people-title {
+  grid-column: 5/11;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 3em; }
+  .people-title h2 {
+    font-weight: 400;
+    color: #000;
+    margin: 1em; }
+  .people-title a {
+    text-decoration: none; }
+  .people-title a:hover {
+    text-decoration: underline; }
+
+.people-image:hover {
+  -webkit-transform: scale(1.005, 1.005);
+  transform: scale(1.005, 1.005); }
 
 .miskrada {
   background: url("../img/main.jpg");
@@ -389,6 +432,11 @@ nav {
   nav a {
     font-family: roboto; }
 
+.header-help {
+  grid-column: 13/14;
+  grid-row: 2/3;
+  position: relative; }
+
 .header-fb {
   grid-column: 14/15;
   grid-row: 2/3;
@@ -473,18 +521,15 @@ nav {
       padding: 1em 0; }
 
 .button-help {
-  grid-column: 14/15;
-  position: fixed;
-  top: 1.5vh;
-  left: 46.15vw;
-  width: 6vw;
-  height: 6vw;
+  position: absolute;
+  top: 1.2em;
+  right: 1.75em;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  z-index: 10;
-  background: rgba(220, 0, 0, 0.25);
+  background: rgba(220, 0, 0, 0.5);
   -webkit-transition: background 0.25s linear;
   transition: background 0.25s linear;
-  border: #fff 1px solid;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -499,7 +544,8 @@ nav {
     color: #fff;
     letter-spacing: 0.025em;
     font-weight: 100;
-    font-size: 0.9em; }
+    font-size: 1.2em;
+    font-weight: 900; }
 
 .button-help:hover {
   background: rgba(10, 120, 80, 0.9); }
