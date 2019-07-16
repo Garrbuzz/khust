@@ -33,6 +33,9 @@ header{
 		font-family: roboto;
 		color:white;
 	}
+	// a:hover{
+	// 	cursor: pointer;	
+	// }
 }
 .header-right{
 	grid-column:10/15;
@@ -51,11 +54,23 @@ header{
 	background:rgba(20,20,30,0.2);
 }
 .radio{
+
+
+	margin:1em 1em 0 0.5em;
+	background: url('../img/radio.jpg');
+}
+.play-stop-cover{
 	display: flex;
 	flex-direction:column;
 	align-items:center;
 	justify-content:center;
-	margin:1em 1em 0 0.5em;
+	width: 72px;
+	height: 64px;
+	transition: background 0.2s linear; 
+}
+.play-stop-cover:hover{
+	cursor: pointer;	
+	background: rgba(0,0,0,0.7);
 }
 #play-stop{
 	// margin: 0.em 0;
