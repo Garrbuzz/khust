@@ -1,19 +1,38 @@
-.street-working{
-	background: url('../img/main.jpg');
-	background-size: cover;
-	height: 85vh;
+.image-cover{
+	background:#333;
 }
-.message{
-	grid-column: 1/15;
-	display: flex;
+.footer-streets{
+	margin:0;
+}
+.streets-images{
+	grid-column: 1/9;
+	display:flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	align-items: center;
-	font-size: 2.5em;
-
-
-	h1{
+	div{
+		margin:0.5em;
+	}
+}
+.streets-title{
+	grid-column: 5/11;
+	text-align: center;
+	h2{
 		font-family: roboto;
 		font-weight: 100;
-		color:#fff;
+		font-size: 3em;
+		color: #fff;
+		margin: 1em 0;
+
+	}
+}
+.street-text{
+	grid-column: 9/14;
+	p{
+		font-family: roboto;
+		font-weight: 100;
+		font-size: 1.5em;
+		line-height: 1.5em;
+		color: #fff;
+		margin: 1em 0;
 	}
 }

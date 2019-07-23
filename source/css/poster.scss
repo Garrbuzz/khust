@@ -1,12 +1,35 @@
 section{
 	font-family: roboto;
 }
-
+.posters{
+	background: #333;
+}
+.breadcrumbs-poster{
+	
+	font-family: roboto;
+	grid-column: 4/12;
+	ul{
+		margin: 1em auto;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		list-style-type: none;
+		li{
+			margin: 0 0.5em;
+			a{
+				color:#aaa;
+				font-size: 0.8em;
+			}
+		}
+	}
+	
+}
 .posters-wrap{
 	grid-column: 2/14;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+
 }
 .poster-container{
 	width:300px;
@@ -19,7 +42,7 @@ section{
 	justify-content: flex-start;
 	align-items: center;
 	transition:  border-color 0.2s linear, background 0.2s linear;
-	background:#eee;
+	background:#dee;
 	a{
 			text-decoration: none;
 	}

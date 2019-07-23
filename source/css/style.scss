@@ -299,13 +299,16 @@ nav{
 	overflow:hidden;
 }
 .event-shadow{
-	text-align: center;
+	display:flex;
+	align-items: center;
+	justify-content: center;
 	background:rgba(20,20,30,0.7);
 	h3{
 		color: #fff;
 		font-weight: 100;
 		font-size: 2em;
-		margin: 2em 1em;
+		margin: 0 1em;
+		text-align: center;
 		transition: color 0.3s linear, background 0.3s linear;
 	}
 }

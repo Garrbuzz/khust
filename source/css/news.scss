@@ -1,10 +1,6 @@
 .last-news{
 	margin: 2vh 0 1vh 0;
 }
-// // .ls1-cover{
-// // 	// background: url('../img/l-1.jpg');
-// // 	max-width: 450px;
-// }
 .big-last-news{
 	grid-column: 4/9;
 	a{
@@ -22,6 +18,9 @@
 			position:absolute;
 			top:0;
 			left:0;
+		}
+		.big-last-news-shadow{
+			background: rgba(10, 20, 30, 0.7);
 		}				
 		div{
 			// padding-top: 3em;
