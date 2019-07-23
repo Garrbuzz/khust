@@ -72,12 +72,7 @@ header{
 	cursor: pointer;	
 	background: rgba(0,0,0,0.7);
 }
-#play-stop{
-	// margin: 0.em 0;
-	img{
-		margin-top:0.75em;
-	}
-}
+
 #play-stop:hover{
 	cursor: pointer;
 }
@@ -301,6 +296,7 @@ nav{
 	position:absolute;
 	top:0;
 	left:0;
+	overflow:hidden;
 }
 .event-shadow{
 	text-align: center;
@@ -440,41 +436,52 @@ nav{
 }
 footer{
 	font-family: roboto;
-	background:#f6f6f6;
+	background:#333;
 	padding:2em 0;
 	margin-top:6vh;
 
 }
-.emblem-hust, .emblem-oblrada{
-
+.emblem-hust{
 	grid-column: 2/3;
+}
+.emblem-oblrada{
+	grid-column: 4/5;
+}
+.emblem-hust, .emblem-oblrada{
 	display:flex;
 	justify-content: start;
 	align-items:center;	
 	img{
-		
 		margin:  0 1em;
+
 	}
+	
 	p{
-		color:#000;
+		color:#aaa;
 		font-family: roboto;
+		font-size: 0.8em;
+		line-height: 1.25em;
+		transition: color 0.2s linear;
 	}
 	a{
 		text-decoration: none;
 	}
+	div:hover{
+		p{
+			color:#f4940b;
+		}
+	}
 }
 .contacts{
 	grid-column: 11/14;
-
 	div{
 		display: flex;
 		align-items: center;
 		margin:1em 0;
 		span{
 			margin: 0 1em;
-			font-size: 1.25em;
+			font-size: 0.8em;
+			color:#aaa;
 		}
-
 	}
-
 }
