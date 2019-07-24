@@ -361,6 +361,28 @@ section {
   .burg-menu {
     display: block; } }
 
+.help-children {
+  grid-column: 2/6; }
+
+.help-east {
+  grid-column: 6/10; }
+
+.help-trabl {
+  grid-column: 10/14; }
+
+.help-children, .help-trabl, .help-east {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .help-children h2, .help-trabl h2, .help-east h2 {
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 1.25em;
+    margin: 1em; }
+
 * {
   margin: 0;
   padding: 0; }

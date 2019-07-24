@@ -1,0 +1,19 @@
+.help-children{
+	grid-column:2/6;
+}
+.help-east{
+	grid-column:6/10;
+}
+.help-trabl{
+	grid-column:10/14;
+}
+.help-children, .help-trabl, .help-east{
+	display:flex;
+	justify-content:center;
+	h2{
+		font-family: roboto;
+		font-weight: 300;
+		font-size: 1.25em;
+		margin:1em;
+	}
+} 
