@@ -3,17 +3,35 @@
 }
 .help-east{
 	grid-column:6/10;
+	border-right: 1px #ddd solid; 
+	border-left: 1px #ddd solid; 
 }
 .help-trabl{
 	grid-column:10/14;
 }
-.help-children, .help-trabl, .help-east{
-	display:flex;
-	justify-content:center;
+.help-title{
+	text-align: center;
 	h2{
 		font-family: roboto;
-		font-weight: 300;
+		font-weight: 400;
 		font-size: 1.25em;
 		margin:1em;
 	}
+}
+.help-children, .help-trabl, .help-east{
+	
 } 
+.help-child{
+	font-family: roboto;
+	font-size: 0.8em;
+	display:flex;
+	justify-content:center;
+
+	table{
+		td{
+			padding:0.5em 0;
+		}
+		width: 90%;
+	}
+	
+}

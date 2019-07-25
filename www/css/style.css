@@ -365,23 +365,34 @@ section {
   grid-column: 2/6; }
 
 .help-east {
-  grid-column: 6/10; }
+  grid-column: 6/10;
+  border-right: 1px #ddd solid;
+  border-left: 1px #ddd solid; }
 
 .help-trabl {
   grid-column: 10/14; }
 
-.help-children, .help-trabl, .help-east {
+.help-title {
+  text-align: center; }
+  .help-title h2 {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 1.25em;
+    margin: 1em; }
+
+.help-child {
+  font-family: roboto;
+  font-size: 0.8em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
-  .help-children h2, .help-trabl h2, .help-east h2 {
-    font-family: roboto;
-    font-weight: 300;
-    font-size: 1.25em;
-    margin: 1em; }
+  .help-child table {
+    width: 90%; }
+    .help-child table td {
+      padding: 0.5em 0; }
 
 * {
   margin: 0;
