@@ -156,17 +156,24 @@
 		border-radius: 2px;
 	}
 	ul{
+		height: 0;
 		display: flex;
 		list-style-type: none;
-
 		li{
 			background:#f6f6f6;
 			padding: 0.5em 1em;
 			margin:2em 0.25em;
 			border-radius: 2px;
+			// height: 2em;
+			a{
+				text-decoration: none;
+			}	
 		}
 		
 	}
+}
+.pag-control{
+	background: green;
 }
 .current-news{
 	

@@ -62,51 +62,67 @@ section{
 	border-color: red;
 	background: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.poster-title{
-	grid-column: 5/11;
-	margin-top: 2em;
-}
 .poster-image{
-	grid-column: 4/6;	
-}
-.poster-date{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
-	grid-column: 6/12;
-	table{
-		td{
-			padding: 0 2em 0.25em 0;
-			font-size: 0.9em;
+	margin: 2em 0;
+	img{
+		border-radius: 1em 0 0 1em;
+	}
+	
 
-		}
-	}	
 }
 .poster-text{
-	grid-column: 4/12;
-	p{
-		
-		line-height: 1.5em;
-		letter-spacing: 0.1em;
-	}
-
+	background:#fff;
+	margin: 2em 0;
+	border-radius: 0 1em 1em 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .posters-title{
+// 	grid-column: 5/11;
+// 	margin-top: 2em;
+// }
+// .posters-image{
+// 	grid-column: 4/6;	
+// }
+// .posters-date{
+// 	display: flex;
+// 	justify-content: center;
+// 	align-items: center;
+// 	grid-column: 6/12;
+// 	table{
+// 		td{
+// 			padding: 0 2em 0.25em 0;
+// 			font-size: 0.9em;
+
+// 		}
+// 	}	
+// }
+// .posters-text{
+// 	grid-column: 4/12;
+// 	p{
+		
+// 		line-height: 1.5em;
+// 		letter-spacing: 0.1em;
+// 	}
+
+// }

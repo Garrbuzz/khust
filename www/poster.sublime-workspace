@@ -1,0 +1,1097 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"flex-",
+				"flex-wrap\tproperty"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"gid",
+				"grid-row\tproperty"
+			],
+			[
+				"tran",
+				"transition\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"mrg",
+				"margin-top\tproperty"
+			],
+			[
+				"bac",
+				"background-clip"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"grid-co",
+				"grid-column\tproperty"
+			],
+			[
+				"h",
+				"html"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"grid-c",
+				"grid-column\tproperty"
+			],
+			[
+				"he",
+				"height\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tbackground"
+			],
+			[
+				"z-",
+				"z-index\tproperty"
+			],
+			[
+				"grid-au",
+				"grid-auto-rows\tproperty"
+			],
+			[
+				"justi",
+				"justify-content"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"box-",
+				"box-shadow\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"just",
+				"justify-content\tproperty"
+			],
+			[
+				"displa",
+				"display\tproperty"
+			],
+			[
+				"padding-",
+				"padding-right"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"dark",
+				"darkgreen"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"colu",
+				"column"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"con",
+				"align-content"
+			],
+			[
+				"font-w",
+				"font-weight"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"l",
+				"line-height\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"bacg",
+				"background-size"
+			],
+			[
+				"gri",
+				"grid-column-start\tproperty"
+			],
+			[
+				"grid-r",
+				"grid-row-end"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"jus",
+				"justify-content"
+			],
+			[
+				"grid-row",
+				"grid-row-end"
+			],
+			[
+				"grid-row-",
+				"grid-row-start\tproperty"
+			],
+			[
+				"grid-colum",
+				"grid-column-end"
+			],
+			[
+				"grid-te",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"wh",
+				"white"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"ju",
+				"justify-content"
+			],
+			[
+				"grid",
+				"grid-column-start\tproperty"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"bot",
+				"both"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"or",
+				"orange"
+			],
+			[
+				"tr",
+				"translate()"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"gr",
+				"grid-column-end\tproperty"
+			],
+			[
+				"grid-ro",
+				"grid-row-start\tproperty"
+			],
+			[
+				"str",
+				"strike-1-1-paused"
+			],
+			[
+				"animation-d",
+				"animation-delay"
+			],
+			[
+				"i",
+				"infinite"
+			],
+			[
+				"animation-it",
+				"animation-iteration-count"
+			],
+			[
+				"animation-du",
+				"animation-duration"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin-bott",
+				"margin-bottom"
+			],
+			[
+				"ne",
+				"news-item"
+			],
+			[
+				"fl",
+				"flex\tproperty"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"bacground",
+				"background-image\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"e",
+				"ease-in-out"
+			],
+			[
+				"gre",
+				"grey"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"al",
+				"align-self"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"red",
+				"readyState"
+			],
+			[
+				"s",
+				"src\tAttr"
+			],
+			[
+				"a",
+				"array"
+			],
+			[
+				"pr",
+				"print_r"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"B",
+				"background"
+			],
+			[
+				"se",
+				"session_start"
+			],
+			[
+				"PRINT",
+				"print_r"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"shad",
+				"box-shadow"
+			],
+			[
+				"in",
+				"innerHTML"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"m",
+				"margin-right"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"my",
+				"mysqli"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"br",
+				"brOfCart"
+			],
+			[
+				"ch",
+				"choiceOfCartridge"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"db",
+				"db_password"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"Azbuka",
+				"Azbuka06.ttf"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"Background-c",
+				"background-color"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"pos",
+				"position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "poster.html",
+			"settings":
+			{
+				"buffer_size": 5786,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "miskrada.html",
+			"settings":
+			{
+				"buffer_size": 5527,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "news.html",
+			"settings":
+			{
+				"buffer_size": 7761,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "streets.html",
+			"settings":
+			{
+				"buffer_size": 6930,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"livereload",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/OpServ/OSPanel/domains/khust-modx-test/assets/www/index.html",
+		"/E/OpServ/OSPanel/domains/khust-modx-test/assets/www/1.html",
+		"/E/OpServ/OSPanel/domains/khust-modx-test/assets/www/11.html",
+		"/E/OpServ/OSPanel/domains/khust/source/js/script.js",
+		"/E/OpServ/OSPanel/domains/khust/source/css/news.scss",
+		"/E/OpServ/OSPanel/domains/khust/source/html/news.html",
+		"/E/OpServ/OSPanel/domains/khust/source/html/index.html",
+		"/E/OpServ/OSPanel/domains/khust/source/css/style.scss",
+		"/E/OpServ/OSPanel/domains/khust/www/css/style.css",
+		"/E/OpServ/OSPanel/domains/khust/source/html/streets.html",
+		"/E/OpServ/OSPanel/domains/khust/source/css/layout.scss",
+		"/E/OpServ/OSPanel/domains/khust-modx/core/cache/includes/elements/modplugin/2.include.cache.php",
+		"/E/OpServ/OSPanel/domains/khust/source/css/streets.scss",
+		"/E/OpServ/OSPanel/domains/khust/source/html/poster.html",
+		"/E/OpServ/OSPanel/domains/khust/source/css/poster.scss",
+		"/E/OpServ/OSPanel/domains/khust/source/html/news/news-4.html",
+		"/E/OpServ/OSPanel/domains/khust-modx/assets/www/js/script.js",
+		"/E/OpServ/OSPanel/domains/khust/source/html/news/news-3.html",
+		"/E/OpServ/OSPanel/domains/khust/source/html/news/news-1.html",
+		"/E/OpServ/OSPanel/domains/khust/source/html/people.html",
+		"/E/OpServ/OSPanel/domains/khust/source/css/people.scss",
+		"/E/OpServ/OSPanel/domains/khust/source/html/miskrada.html",
+		"/E/OpServ/OSPanel/domains/khust/source/html/weather.html",
+		"/E/OpServ/OSPanel/domains/khust/source/css/miskrada.scss",
+		"/E/OpServ/OSPanel/domains/khust-modx/assets/www/css/style.css",
+		"/E/OpServ/OSPanel/domains/khust/source/html/articles/news-1.html",
+		"/E/OpServ/OSPanel/domains/khust-modx/index.php",
+		"/E/OpServ/OSPanel/domains/test/test1/gulpfile.js",
+		"/E/OpServ/OSPanel/domains/templates/t1/package-lock.json",
+		"/E/OpServ/OSPanel/domains/imla/source/js/script.js",
+		"/E/OpServ/OSPanel/domains/imla/source/css/header.scss",
+		"/E/OpServ/OSPanel/domains/imla/source/html/index.html",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/video.html",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/audio.html",
+		"/E/OpServ/OSPanel/domains/imla/source/css/style.scss",
+		"/E/OpServ/OSPanel/domains/imla/source/css/layout.scss",
+		"/E/OpServ/OSPanel/domains/test/test1/package-lock.json",
+		"/E/OpServ/backup/imla/imla_26-01-2019/css/style.css",
+		"/E/OpServ/OSPanel/domains/imla/gulpfile.js",
+		"/E/OpServ/OSPanel/domains/imla/source/css/nav.scss",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/about.html",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/contacts.html",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/blog.html",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/news.html",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/concerts.html",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/media.html",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/photo.html",
+		"/E/OpServ/OSPanel/domains/imla/source/html/html/press.html",
+		"/E/OpServ/backup/imla/imla_26-01-2019/html/audio.html",
+		"/E/web/imla/source/html/html/about.html",
+		"/E/web/imla/source/html/html/blog.html",
+		"/E/web/imla/source/html/html/concerts.html",
+		"/E/web/imla/source/html/html/contacts.html",
+		"/E/web/imla/source/html/html/media.html",
+		"/E/web/imla/source/html/html/news.html",
+		"/E/web/imla/source/html/html/photo.html",
+		"/E/web/imla/source/html/html/press.html",
+		"/E/web/imla/source/html/html/video.html",
+		"/E/web/imla/source/index.html",
+		"/E/OpServ/OSPanel/domains/imla/css/style.css",
+		"/E/OpServ/OSPanel/domains/gulp-test/gulpfile.js",
+		"/E/web/imla/package.json",
+		"/E/OpServ/OSPanel/domains/imla/css/layout.css",
+		"/E/web/imla/source/css/style.scss",
+		"/E/web/imla/source/css/layout.css",
+		"/E/web/imla/source/css/nav.css",
+		"/E/web/imla/source/css/style.css",
+		"/E/OpServ/OSPanel/domains/gulp-test/package.json",
+		"/E/OpServ/OSPanel/domains/imla/index.html",
+		"/E/OpServ/OSPanel/domains/gulp-test/src/css/any.css",
+		"/E/OpServ/OSPanel/domains/gulp-test/src/css/some.css",
+		"/E/OpServ/OSPanel/domains/gulp-test/index.html",
+		"/E/OpServ/OSPanel/domains/vp/js/script.js",
+		"/E/OpServ/OSPanel/domains/vp/js/calculator.js",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske.html",
+		"/E/OpServ/OSPanel/domains/vp/js/animation.js",
+		"/E/OpServ/OSPanel/domains/vp/css/style.css",
+		"/E/OpServ/OSPanel/domains/vp/stvorennya/proektuvannya.html",
+		"/E/OpServ/OSPanel/domains/vp/stvorennya.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/stvorennya.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/service-center.html",
+		"/E/OpServ/OSPanel/domains/vp/webdesign.html",
+		"/E/OpServ/OSPanel/domains/vp/about.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/incidentne.html",
+		"/E/OpServ/OSPanel/domains/vp/contacts.html",
+		"/E/OpServ/OSPanel/domains/vp/stvorennya/ip-telfoniya.html",
+		"/E/OpServ/OSPanel/domains/vp/stvorennya/network.html",
+		"/E/OpServ/OSPanel/domains/vp/stvorennya/servers.html",
+		"/E/OpServ/OSPanel/domains/vp/stvorennya/videosposteregennya.html",
+		"/E/OpServ/OSPanel/domains/vp/stvorennya/zberejennya-danyh.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/korysna-informaciya.html",
+		"/E/OpServ/OSPanel/domains/vp/index.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/about.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/obslugovuvannya.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/obslugovuvannya/abonentske/howmatch-isit-abonentske.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/obslugovuvannya/abonentske/korysna-informaciya.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/obslugovuvannya/abonentske/whatis-abonentske-obslugovuvannya.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/obslugovuvannya/howmatch-isit-abonentske.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/1.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/obslugovuvannya/incidentne.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/index.html",
+		"/E/OpServ/OSPanel/domains/vp/ru/obslugovuvannya/abonentske.html",
+		"/E/OpServ/OSPanel/domains/learning/js/script.js",
+		"/E/OpServ/backup/vp/1411_2018/vp/js/calculator.js",
+		"/E/OpServ/OSPanel/domains/imla1/index.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/obslugovuvannya.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/incydentne/incident.html",
+		"/E/OpServ/OSPanel/domains/vp/obslugovuvannya/abonentske/abonentske.html",
+		"/E/OpServ/OSPanel/domains/vp/soft.html",
+		"/E/OpServ/OSPanel/domains/vp/network.html",
+		"/E/OpServ/OSPanel/domains/vp/outsoursing.html",
+		"/E/OpServ/OSPanel/domains/vp/incident.html",
+		"/E/OpServ/OSPanel/domains/vp/creating.html",
+		"/E/OpServ/OSPanel/domains/vp/abonent.html",
+		"/E/OpServ/OSPanel/domains/vp/html/contacts.html",
+		"/E/OpServ/OSPanel/domains/vp/html/webdesign.html",
+		"/E/OpServ/OSPanel/domains/vp/html/about.html",
+		"/E/OpServ/OSPanel/domains/vp/html/creating.html",
+		"/E/OpServ/OSPanel/domains/vp/html/incident.html",
+		"/E/OpServ/OSPanel/domains/vp/html/abonent.html",
+		"/E/OpServ/OSPanel/domains/vp/html/outsoursing.html",
+		"/E/OpServ/OSPanel/domains/vp/html/incedent.html",
+		"/E/OpServ/OSPanel/domains/imla1/css/style.css",
+		"/E/OpServ/OSPanel/domains/vp/html/soft.html",
+		"/E/OpServ/OSPanel/domains/vp/html/network.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"page-i",
+			".pagination",
+			"pag-prev",
+			"75em",
+			"message",
+			"curre",
+			"help",
+			"nav",
+			"next",
+			".image-back",
+			".wrap",
+			"inwork",
+			"announcement",
+			"span",
+			"image",
+			"grid",
+			"back-a",
+			"1em",
+			"out-title",
+			".dark-nav a",
+			"nav-abonent",
+			"work",
+			"h1",
+			"html/",
+			"nav",
+			"bread",
+			"\t\t\t",
+			"li",
+			"creating",
+			"outsourcing",
+			"ddd",
+			"8",
+			".title",
+			"none",
+			"opa",
+			";\n",
+			"6",
+			"2s",
+			"margin:auto",
+			"wrapper",
+			"@keyframes member1{\n\t0%, 100% {box-shadow: none;\n\t}\n\t1%{\n\t\tbox-shadow: 0 0 5px rgba(200,200,200, 0.5);\n\t}\n\t25%{\n\t\tbox-shadow: 0 0 50px rgba(200,200,200, 0.5);\n\t}\n\t50%{\n\t\tbox-shadow: 0 0 150px rgba(200,200,200, 0.5);\n\t}\n\t75%{\n\t\tbox-shadow: 0 0 50px rgba(200,200,200, 0.5);\n\t}\n\t98%{\n\t\tbox-shadow: 0 0 5px rgba(200,200,200, 0.5);\n\t}",
+			"member",
+			"member1",
+			"stroo",
+			"Imla",
+			"background",
+			"\"x",
+			";\n",
+			"box-",
+			"alert",
+			"не за",
+			"за",
+			"min",
+			"readsta",
+			"choiceCa",
+			"choice-cartr-id",
+			"content",
+			"new-cartridge",
+			"alert",
+			"img",
+			"face",
+			"writeNewStatus",
+			"choiceCartridge",
+			"stat-sel",
+			"st",
+			"writeNewStatus",
+			"checkId",
+			"уніка",
+			"alert",
+			"writeNewStatus",
+			"change-button",
+			"alert",
+			"writeNewStatus",
+			"K",
+			"CONSO",
+			"brand",
+			"stat-sel",
+			" \n",
+			"відмінити",
+			"скасувати",
+			"choiceCartridge",
+			"v1",
+			"alert",
+			"writeNewStatus",
+			"alert",
+			"choiceCartridge",
+			"change-button",
+			"editStatusOfCartridge",
+			"console",
+			"alert",
+			"target",
+			"close",
+			"$db_table",
+			"oncha",
+			";\n",
+			"row",
+			"xhr.onreadystatechange",
+			"brand",
+			"3",
+			"75px",
+			";\n",
+			"$tpl",
+			"tpl",
+			"package",
+			"shopcon",
+			"classname",
+			"className",
+			"class",
+			"shopco",
+			"glukov",
+			"<?php\n/**\n *  MODX Configuration file\n */\n$database_type = 'mysql';\n$database_server = 'localhost';\n$database_user = 'test1';\n$database_password = 'gfhjkm123456';\n$database_connection_charset = 'utf8';\n$dbase = 'partex_new';\n$table_prefix = 'par_';\n$database_dsn = 'mysql:host=localhost;dbname=partex_new;charset=utf8';\n$config_options = array (\n);\n$driver_options = array (\n);\n\n$lastInstallTime = 1497125929;\n\n$site_id = 'modx593c542948d2c0.02389299';\n$site_sessionname = 'SN58b6d8da809f5';\n$https_port = '443';\n$uuid = '413ac5ec-6222-40d6-8ce2-efceb5039a51';\n\nif (!defined('MODX_CORE_PATH')) {\n    $modx_core_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/core/';\n    define('MODX_CORE_PATH', $modx_core_path);\n}\nif (!defined('MODX_PROCESSORS_PATH')) {\n    $modx_processors_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/core/model/modx/processors/';\n    define('MODX_PROCESSORS_PATH', $modx_processors_path);\n}\nif (!defined('MODX_CONNECTORS_PATH')) {\n    $modx_connectors_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/connectors/';\n    $modx_connectors_url= '/connectors/';\n    define('MODX_CONNECTORS_PATH', $modx_connectors_path);\n    define('MODX_CONNECTORS_URL', $modx_connectors_url);\n}\nif (!defined('MODX_MANAGER_PATH')) {\n    $modx_manager_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/manager/';\n    $modx_manager_url= '/manager/';\n    define('MODX_MANAGER_PATH', $modx_manager_path);\n    define('MODX_MANAGER_URL', $modx_manager_url);\n}\nif (!defined('MODX_BASE_PATH')) {\n    $modx_base_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/';\n    $modx_base_url= '/';\n    define('MODX_BASE_PATH', $modx_base_path);\n    define('MODX_BASE_URL', $modx_base_url);\n}\nif(defined('PHP_SAPI') && (PHP_SAPI == \"cli\" || PHP_SAPI == \"embed\")) {\n    $isSecureRequest = false;\n} else {\n    $isSecureRequest = ((isset ($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) == 'on') || $_SERVER['SERVER_PORT'] == $https_port);\n}\nif (!defined('MODX_URL_SCHEME')) {\n    $url_scheme=  $isSecureRequest ? 'https://' : 'http://';\n    define('MODX_URL_SCHEME', $url_scheme);\n}\nif (!defined('MODX_HTTP_HOST')) {\n    if(defined('PHP_SAPI') && (PHP_SAPI == \"cli\" || PHP_SAPI == \"embed\")) {\n        $http_host='glukov.net.ua';\n        define('MODX_HTTP_HOST', $http_host);\n    } else {\n        $http_host= array_key_exists('HTTP_HOST', $_SERVER) ? htmlspecialchars($_SERVER['HTTP_HOST'], ENT_QUOTES) : 'partex.glukov.net.ua';\n        if ($_SERVER['SERVER_PORT'] != 80) {\n            $http_host= str_replace(':' . $_SERVER['SERVER_PORT'], '', $http_host); // remove port from HTTP_HOST\n        }\n        $http_host .= ($_SERVER['SERVER_PORT'] == 80 || $isSecureRequest) ? '' : ':' . $_SERVER['SERVER_PORT'];\n        define('MODX_HTTP_HOST', $http_host);\n    }\n}\nif (!defined('MODX_SITE_URL')) {\n    $site_url= $url_scheme . $http_host . MODX_BASE_URL;\n    define('MODX_SITE_URL', $site_url);\n}\nif (!defined('MODX_ASSETS_PATH')) {\n    $modx_assets_path= '/var/www/39614-garrbuzz/data/www/partex.glukov.net.ua/assets/';\n    $modx_assets_url= '/assets/';\n    define('MODX_ASSETS_PATH', $modx_assets_path);\n    define('MODX_ASSETS_URL', $modx_assets_url);\n}\nif (!defined('MODX_LOG_LEVEL_FATAL')) {\n    define('MODX_LOG_LEVEL_FATAL', 0);\n    define('MODX_LOG_LEVEL_ERROR', 1);\n    define('MODX_LOG_LEVEL_WARN', 2);\n    define('MODX_LOG_LEVEL_INFO', 3);\n    define('MODX_LOG_LEVEL_DEBUG', 4);\n}\nif (!defined('MODX_CACHE_DISABLED')) {\n    $modx_cache_disabled= false;\n    define('MODX_CACHE_DISABLED', $modx_cache_disabled);\n}\n",
+			"price",
+			"float",
+			"fh5co-intro-sub",
+			"getCartContent",
+			"currency",
+			"container",
+			"178",
+			"fh5co-intro",
+			"fh5co-intro-sub",
+			"modresource",
+			"++;\n",
+			"purchases",
+			"shk_pur",
+			"shk-pur",
+			"shk",
+			"shk_purchases"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "poster.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3161,
+								3161
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2288.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "miskrada.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5527,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4639,
+								3284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1292.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "news.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "streets.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3270,
+								6027
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2003.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "poster.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

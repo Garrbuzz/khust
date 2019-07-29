@@ -143,6 +143,7 @@
     margin: 2em 0.25em;
     border-radius: 2px; }
   .news-pagination ul {
+    height: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -152,6 +153,11 @@
       padding: 0.5em 1em;
       margin: 2em 0.25em;
       border-radius: 2px; }
+      .news-pagination ul li a {
+        text-decoration: none; }
+
+.pag-control {
+  background: green; }
 
 .current-news-text {
   grid-column: 4/12;
@@ -250,33 +256,24 @@ section {
   border-color: red;
   background: #fff; }
 
-.poster-title {
-  grid-column: 5/11;
-  margin-top: 2em; }
-
 .poster-image {
-  grid-column: 4/6; }
-
-.poster-date {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  grid-column: 6/12; }
-  .poster-date table td {
-    padding: 0 2em 0.25em 0;
-    font-size: 0.9em; }
+  margin: 2em 0; }
+  .poster-image img {
+    border-radius: 1em 0 0 1em; }
 
 .poster-text {
-  grid-column: 4/12; }
-  .poster-text p {
-    line-height: 1.5em;
-    letter-spacing: 0.1em; }
+  background: #fff;
+  margin: 2em 0;
+  border-radius: 0 1em 1em 0; }
 
 .people-image {
   grid-column: 4/12;
