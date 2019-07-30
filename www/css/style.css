@@ -222,7 +222,7 @@ section {
 
 .poster-container {
   width: 300px;
-  height: 400px;
+  height: 500px;
   border: #000 1px solid;
   border-radius: 1em;
   margin: 1.5em;
@@ -260,9 +260,6 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -273,42 +270,53 @@ section {
 .poster-text {
   background: #fff;
   margin: 2em 0;
-  border-radius: 0 1em 1em 0; }
-
-.people-image {
-  grid-column: 4/12;
+  border-radius: 0 1em 1em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
-  transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear; }
+  width: 25vw;
+  padding: 3em 5em; }
 
-.people-title {
-  grid-column: 5/11;
+.people {
+  padding: 4vh 0;
+  background: #333; }
+
+.people-description {
+  background: #fff;
+  margin: 2em 0;
+  border-radius: 0 1em 1em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  margin-top: 3em; }
-  .people-title h2 {
-    font-weight: 400;
-    color: #000;
-    margin: 1em; }
-  .people-title a {
-    text-decoration: none; }
-  .people-title a:hover {
-    text-decoration: underline; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 20vw;
+  padding: 3em; }
+  .people-description h2 {
+    color: #0062d7;
+    font-weight: 300; }
+  .people-description p {
+    margin: 1em 0;
+    line-height: 1.5em; }
 
-.people-image:hover {
-  -webkit-transform: scale(1.005, 1.005);
-  transform: scale(1.005, 1.005); }
+.people-photo {
+  grid-column: 2/14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .people-photo img {
+    margin: 1em 0.5em; }
+
+.people-text {
+  grid-column: 5/11; }
 
 .fm {
   margin: 0; }
@@ -818,8 +826,7 @@ nav {
 footer {
   font-family: roboto;
   background: #333;
-  padding: 2em 0;
-  margin-top: 6vh; }
+  padding: 2em 0; }
 
 .emblem-hust {
   grid-column: 2/3; }

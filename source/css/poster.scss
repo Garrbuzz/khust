@@ -33,7 +33,7 @@ section{
 }
 .poster-container{
 	width:300px;
-	height:400px;
+	height:500px;
 	border: #000 1px solid;
 	border-radius: 1em;
 	margin:1.5em; 
@@ -53,8 +53,8 @@ section{
 	div{
 		padding-top: 0.6em;
 		img{
-			border-radius: 0.5em; 			
-		}
+			border-radius: 0.5em; 
+			}
 		
 	}
 }
@@ -64,7 +64,6 @@ section{
 }
 .poster-image{
 	display: flex;
-	justify-content: flex-end;
 	align-items: center;
 	margin: 2em 0;
 	img{
@@ -77,6 +76,10 @@ section{
 	background:#fff;
 	margin: 2em 0;
 	border-radius: 0 1em 1em 0;
+	display:flex;
+	justify-content:center;
+	width: 25vw;
+	padding:3em 5em;
 }
 
 
