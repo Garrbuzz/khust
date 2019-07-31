@@ -284,6 +284,56 @@ section {
   padding: 4vh 0;
   background: #333; }
 
+.people-wrap {
+  grid-column: 2/14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .people-wrap a {
+    text-decoration: none; }
+
+.people-container {
+  width: 220px;
+  height: 300px;
+  border: #aaa 1px solid;
+  margin: 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: border-color 0.2s linear, background 0.2s linear;
+  transition: border-color 0.2s linear, background 0.2s linear; }
+  .people-container h2 {
+    color: #0062d7;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-top: 1em; }
+  .people-container p {
+    margin: 1em 1em;
+    color: #333;
+    line-height: 1.5em;
+    font-size: 0.8em; }
+  .people-container div {
+    padding-top: 0.6em; }
+
+.people-container:hover {
+  border-color: red;
+  background: #eff; }
+
 .people-description {
   background: #fff;
   margin: 2em 0;
@@ -298,14 +348,17 @@ section {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 20vw;
-  padding: 3em; }
+  width: 12vw;
+  padding: 1em;
+  height: calc(150px - 2em); }
   .people-description h2 {
     color: #0062d7;
-    font-weight: 300; }
+    font-weight: 300;
+    font-size: 1.1em; }
   .people-description p {
     margin: 1em 0;
-    line-height: 1.5em; }
+    line-height: 1.5em;
+    font-size: 0.9em; }
 
 .people-photo {
   grid-column: 2/14;
@@ -320,19 +373,22 @@ section {
 
 .people-text {
   grid-column: 5/11; }
-
-.question {
-  font-weight: 500;
-  line-height: 1.5em;
-  font-size: 1.25em;
-  margin: 1.5em 0; }
-
-.answer {
-  line-height: 1.5em;
-  font-size: 1.25em;
-  font-weight: 400;
-  color: #555;
-  margin: 0.5em 0; }
+  .people-text h3 {
+    font-weight: 500;
+    line-height: 1.5em;
+    font-size: 1.25em;
+    margin: 1.5em 0; }
+  .people-text p {
+    line-height: 1.5em;
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #555;
+    margin: 0.5em 0; }
+    .people-text p strong {
+      color: #222;
+      font-weight: 500;
+      line-height: 1.5em;
+      margin: 1.5em 0; }
 
 .fm {
   margin: 0; }
