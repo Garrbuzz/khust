@@ -520,7 +520,7 @@
 	"buffers":
 	[
 		{
-			"file": "/E/OpServ/OSPanel/domains/khust/www/css/style.css",
+			"file": "www/css/style.css",
 			"settings":
 			{
 				"buffer_size": 21301,
@@ -528,7 +528,7 @@
 			}
 		},
 		{
-			"file": "people/people-1.html",
+			"file": "source/html/people/people-1.html",
 			"settings":
 			{
 				"buffer_size": 5124,
@@ -537,7 +537,7 @@
 			}
 		},
 		{
-			"file": "people.html",
+			"file": "source/html/people.html",
 			"settings":
 			{
 				"buffer_size": 6002,
@@ -546,7 +546,7 @@
 			}
 		},
 		{
-			"file": "/E/OpServ/OSPanel/domains/khust/source/css/people.scss",
+			"file": "source/css/people.scss",
 			"settings":
 			{
 				"buffer_size": 1523,
@@ -555,7 +555,7 @@
 			}
 		},
 		{
-			"file": "/E/OpServ/OSPanel/domains/khust/source/css/style.scss",
+			"file": "source/css/style.scss",
 			"settings":
 			{
 				"buffer_size": 6975,
@@ -563,7 +563,7 @@
 			}
 		},
 		{
-			"file": "/E/OpServ/OSPanel/domains/khust/source/js/script.js",
+			"file": "source/js/script.js",
 			"settings":
 			{
 				"buffer_size": 676,
@@ -912,7 +912,7 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/E/OpServ/OSPanel/domains/khust/www/css/style.css",
+					"file": "www/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
@@ -942,7 +942,7 @@
 				},
 				{
 					"buffer": 1,
-					"file": "people/people-1.html",
+					"file": "source/html/people/people-1.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -971,7 +971,7 @@
 				},
 				{
 					"buffer": 2,
-					"file": "people.html",
+					"file": "source/html/people.html",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1000,7 +1000,7 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/E/OpServ/OSPanel/domains/khust/source/css/people.scss",
+					"file": "source/css/people.scss",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1029,7 +1029,7 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/E/OpServ/OSPanel/domains/khust/source/css/style.scss",
+					"file": "source/css/style.scss",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1058,7 +1058,7 @@
 				},
 				{
 					"buffer": 5,
-					"file": "/E/OpServ/OSPanel/domains/khust/source/js/script.js",
+					"file": "source/js/script.js",
 					"semi_transient": false,
 					"settings":
 					{
@@ -1124,7 +1124,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "poster.sublime-project",
+	"project": "khust.sublime-project",
 	"replace":
 	{
 		"height": 52.0

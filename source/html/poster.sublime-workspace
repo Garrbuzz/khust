@@ -523,7 +523,7 @@
 			"file": "/E/OpServ/OSPanel/domains/khust/www/css/style.css",
 			"settings":
 			{
-				"buffer_size": 19874,
+				"buffer_size": 21301,
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +531,7 @@
 			"file": "people/people-1.html",
 			"settings":
 			{
-				"buffer_size": 5139,
+				"buffer_size": 5124,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -540,7 +540,7 @@
 			"file": "people.html",
 			"settings":
 			{
-				"buffer_size": 4884,
+				"buffer_size": 6002,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -549,7 +549,7 @@
 			"file": "/E/OpServ/OSPanel/domains/khust/source/css/people.scss",
 			"settings":
 			{
-				"buffer_size": 669,
+				"buffer_size": 1523,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -617,6 +617,7 @@
 	},
 	"file_history":
 	[
+		"/E/OpServ/OSPanel/domains/khust-merch/gulpfile.js",
 		"/E/OpServ/OSPanel/domains/khust/source/html/poster.html",
 		"/E/OpServ/OSPanel/domains/khust/source/css/poster.scss",
 		"/E/OpServ/OSPanel/domains/khust/source/html/posters/poster-1.html",
@@ -743,8 +744,7 @@
 		"/E/OpServ/OSPanel/domains/vp/html/creating.html",
 		"/E/OpServ/OSPanel/domains/vp/html/incident.html",
 		"/E/OpServ/OSPanel/domains/vp/html/abonent.html",
-		"/E/OpServ/OSPanel/domains/vp/html/outsoursing.html",
-		"/E/OpServ/OSPanel/domains/vp/html/incedent.html"
+		"/E/OpServ/OSPanel/domains/vp/html/outsoursing.html"
 	],
 	"find":
 	{
@@ -916,7 +916,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19874,
+						"buffer_size": 21301,
 						"regions":
 						{
 						},
@@ -946,15 +946,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5139,
+						"buffer_size": 5124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3128,
-								4236
+								0,
+								0
 							]
 						],
 						"settings":
@@ -975,15 +975,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4884,
+						"buffer_size": 6002,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3312,
-								3665
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1004,15 +1004,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 669,
+						"buffer_size": 1523,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								667,
-								667
+								0,
+								0
 							]
 						],
 						"settings":
